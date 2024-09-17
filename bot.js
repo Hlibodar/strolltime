@@ -3,7 +3,7 @@ const moment = require('moment-timezone');
 const db = require('./db');
 
 
-const token = '7528401689:AAEC_BIVNWIqY5sUYZQBTkok8viV_HifrC8';
+const token = '';
 const bot = new TelegramBot(token, { polling: true });
 const { validateTime } = require('./utils');
 const { startScheduler } = require('./scheduler');
