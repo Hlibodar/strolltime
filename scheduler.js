@@ -4,7 +4,7 @@ const db = require('./db');
 //const bot = require('./bot'); // Імпортуємо екземпляр бота
 //console.log('Тип змінної bot:', typeof bot);
 const TelegramBot = require('node-telegram-bot-api');
-const token = '7528401689:AAEC_BIVNWIqY5sUYZQBTkok8viV_HifrC8';
+const token = '';
 const bot = new TelegramBot(token, { polling: false });
 
 
